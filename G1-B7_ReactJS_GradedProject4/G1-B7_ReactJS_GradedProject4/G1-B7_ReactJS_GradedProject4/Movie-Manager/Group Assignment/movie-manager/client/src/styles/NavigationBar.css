@@ -1,0 +1,68 @@
+nav {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  margin-block: 10px;
+  padding: 0 2rem;
+  background-color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav span {
+  cursor: pointer;
+  margin-right: 1rem;
+  font-size: 1rem;
+  letter-spacing: -0.5px;
+  transition: opacity 0.3s ease-in-out;
+  color: black;
+}
+
+nav span:hover {
+  border-bottom: 2px solid #75bde0;
+  padding-bottom: 5px;
+  color: #75bde0;
+}
+
+nav span:active {
+  color: black;
+}
+
+.nav-options {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0 40px 0 50px;
+}
+
+.input-group input {
+  display: flex;
+  border: 2px solid #333;
+  padding: 0 1.5rem;
+  height: 30px;
+  font-size: 1.2rem;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.input-group:focus-within {
+  transition: width 0.3s ease-in-out;
+}
+
+.input-group input::placeholder {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  color: lightgray;
+  font-size: 1.2rem;
+}
+
+.btn {
+  width: 5%;
+  height: 35px;
+  background-color: rgb(24, 176, 226);
+  opacity: 0.8;
+  border: none;
+}
